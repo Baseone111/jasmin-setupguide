@@ -2,7 +2,7 @@
 
 Production-minded installation and operations guide for Jasmin SMS Gateway installed from PyPI with `pip` on AlmaLinux. It covers RabbitMQ, Valkey, SMPP routing, billing, delivery receipts, MO traffic, and systemd startup. FastAPI appears only as an optional ESME test client.
 
-> **Scope:** The commands are written for AlmaLinux 9 and Jasmin 0.11.1. Confirm package names on the target AlmaLinux minor release and test changes in staging. Jasmin's official installation page describes Python 3 but does not publish a precise supported Python minor-version matrix. This guide uses Python 3.11 as the conservative deployment target requested by the team; do not interpret that as an upstream statement that every newer Python is incompatible. Jasmin 0.11.1 was installed and run in the lab under Python 3.12, although it emitted a `pkg_resources` deprecation warning.
+> **Scope:** The commands are written for AlmaLinux 9 and Jasmin 0.11.1. Confirm package names on the target AlmaLinux minor release and test changes in staging. Jasmin's official installation page describes Python 3 but does not publish a precise supported Python minor-version matrix. This guide uses Python 3.11 as the conservative deployment target; do not interpret that as an upstream statement that every newer Python is incompatible. Jasmin 0.11.1 was installed and run in the lab under Python 3.12, although it emitted a `pkg_resources` deprecation warning.
 
 ## Contents
 
